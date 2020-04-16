@@ -1,0 +1,48 @@
+@tailwind base;
+
+@tailwind components;
+
+.site-content h4 {
+  @apply text-2xl;
+  @apply font-semibold;
+  @apply my-5;
+  @apply text-avis-blue;
+}
+
+.site-content p {
+  @apply text-base;
+  @apply text-gray-500;
+  @apply leading-6;
+  @apply text-justify;
+  @apply my-3;
+}
+
+.site-content strong {
+  @apply text-avis-blue;
+}
+
+.site-content ul li {
+  @apply my-3;
+  @apply text-gray-500;
+  @apply ml-4;
+  list-style-type: disc;
+}
+
+.site-content ol li {
+  @apply my-3;
+  @apply text-gray-500;
+  @apply ml-4;
+  list-style-type: decimal;
+}
+
+.site-content a {
+  @apply text-avis-blue;
+  @apply underline;
+}
+
+.site-content em {
+  @apply text-avis-blue;
+  @apply font-semibold;
+}
+
+@tailwind utilities;
