@@ -72,11 +72,6 @@ export const query = graphql`
           titolo
           slug
           dataDiPubblicazione
-          immagine {
-            fluid {
-              src
-            }
-          }
           description {
             description
           }
